@@ -1,0 +1,70 @@
+.main{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; */
+    margin: 100px auto;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+button{
+    color: white;
+    background-color: #49A6E9;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+button:hover{
+    background-color: #063251;
+    color: #49A6E9;
+    outline: none;
+    border: solid 1px #49A6E9;
+}
+h1{
+    color: #063251;
+}
+p{
+    height: 200px;
+    padding: 0px 30px;
+    color: #9EAFBF;
+    font-size: 30px;  
+}
+input{
+    margin: 5px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+    }
+.apply-shake{
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
